@@ -55,32 +55,32 @@
 `python verify_torrent.py 手机游戏性能大横评：厂商作弊太疯狂！.torrent --check-files`
 <br><br>
 
-#### 指定文件基础目录
+##### 指定文件基础目录
 `python verify_torrent.py 手机游戏性能大横评：厂商作弊太疯狂！.torrent --check-files --base-dir /path/to/files`
 <br><br>
 
-#### 检查Tracker：
+##### 检查Tracker：
 ##### 检查种子文件中的tracker
 `./tracker_check.sh 手机游戏性能大横评：厂商作弊太疯狂！.torrent`
 <br><br>
 
-#### 检查磁力链接中的tracker
+##### 检查磁力链接中的tracker
 `./tracker_check.sh "magnet:?xt=urn:btih:..."`
 <br><br>
 
-#### 检查tracker列表文件
+##### 检查tracker列表文件
 `./tracker_check.sh trackers.txt`
 <br><br>
 
-#### 更新tracker列表
+##### 更新tracker列表
 `./tracker_check.sh --update-list`
 <br><br>
 
-#### JSON格式输出
+##### JSON格式输出
 `./tracker_check.sh 手机游戏性能大横评：厂商作弊太疯狂！.torrent --json`
 <br><br>
 
-#### 详细输出
+##### 详细输出
 `./tracker_check.sh 手机游戏性能大横评：厂商作弊太疯狂！.torrent --verbose`
 <br><br>
 
@@ -118,7 +118,7 @@ Tracker服务器 (8个): ...
 磁力链接: magnet:?xt=urn:btih:...  
 <br><br>
 
-#### tracker_check.sh
+##### tracker_check.sh
 用于检查tracker服务器的可用性和响应时间。
 <br><br>
 
