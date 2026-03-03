@@ -116,7 +116,6 @@
 Tracker服务器 (8个): ...  
 
 磁力链接: magnet:?xt=urn:btih:...  
-<br><br>
 
 ##### tracker_check.sh
 用于检查tracker服务器的可用性和响应时间。
